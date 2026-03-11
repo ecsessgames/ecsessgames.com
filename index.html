@@ -43,13 +43,15 @@
       width: 120px;
       height: 120px;
       border-radius: 27px;
-      background: linear-gradient(135deg, #f5a623, #e8913a);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 56px;
       margin-bottom: 28px;
       box-shadow: 0 8px 40px rgba(245,166,35,0.35);
+      overflow: hidden;
+    }
+
+    .app-icon img {
+      width: 100%;
+      height: 100%;
+      display: block;
     }
 
     .hero h1 {
@@ -212,7 +214,7 @@
 
   <!-- Hero -->
   <section class="hero">
-    <div class="app-icon">&#9632;</div>
+    <div class="app-icon"><img src="icon.png" alt="Sudoku • Dot app icon" /></div>
     <h1>Sudoku <span>&bull;</span> Dot</h1>
     <p class="tagline">Calm Your Mind, Stay Sharp</p>
     <a class="cta" href="https://apps.apple.com/app/sudoku-dot/id6759490885" target="_blank" rel="noopener">
